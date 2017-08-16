@@ -2,7 +2,7 @@ from datetime import timedelta
 
 
 # Define the All Week Days to match the date.weekday function
-(MON, TUE, WED, THU, FRI, SAT, SUN) = range(7)
+(MON, TUE, WED, THU, FRI, SAT, SUN) = list(range(7))
 
 # Define the Weekends to Subtract Leave Count from Given Date
 weekends=(SAT,SUN)
